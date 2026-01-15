@@ -1,0 +1,2426 @@
+<html><head><style>
+table {border-collapse: collapse; width: auto;}
+th, td {border: 1px solid #ddd; padding: 8px; text-align: left;}
+th {background-color: #f2f2f2; font-weight: bold;}
+</style></head><body>
+<h3>Cost Summary:</h3>
+<table>
+  <thead>
+    <tr>
+      <th style="font-weight: bold; text-align: right;">Row</th>
+      <th style="font-weight: bold; text-align: right;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right;">Objective function (M€)</td>
+      <td style="text-align: right;">111216.3664</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Total costs (M€)</td>
+      <td style="text-align: right;">111216.3664</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Invetment cost (M€)</td>
+      <td style="text-align: right;">70657.5558</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Fixed cost (M€)</td>
+      <td style="text-align: right;">30987.4792</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Operational cost (M€)</td>
+      <td style="text-align: right;">9371.7118</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">CO2 emissions (Mt)</td>
+      <td style="text-align: right;">27.4267</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Load shedding cost (M€)</td>
+      <td style="text-align: right;">199.6196</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Satisfied load (TWh)</td>
+      <td style="text-align: right;">2879.321</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Shedded Load (TWh)</td>
+      <td style="text-align: right;">0.1996</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Unit production cost (€/MWh)</td>
+      <td style="text-align: right;">38.6259</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<h3>Installed Capacity (GW): </h3>
+<table>
+  <thead>
+    <tr>
+      <th style="font-weight: bold; text-align: right;">Region</th>
+      <th style="font-weight: bold; text-align: right;">HydroRes</th>
+      <th style="font-weight: bold; text-align: right;">HydroRoR</th>
+      <th style="font-weight: bold; text-align: right;">PSHopenTurb</th>
+      <th style="font-weight: bold; text-align: right;">PSHopenPump</th>
+      <th style="font-weight: bold; text-align: right;">PSHclosedTurb</th>
+      <th style="font-weight: bold; text-align: right;">PSHclosedPump</th>
+      <th style="font-weight: bold; text-align: right;">Gas</th>
+      <th style="font-weight: bold; text-align: right;">Wind</th>
+      <th style="font-weight: bold; text-align: right;">OffWind</th>
+      <th style="font-weight: bold; text-align: right;">PV</th>
+      <th style="font-weight: bold; text-align: right;">RooftopPV</th>
+      <th style="font-weight: bold; text-align: right;">Battery</th>
+      <th style="font-weight: bold; text-align: right;">Inverter</th>
+      <th style="font-weight: bold; text-align: right;">Nuclear</th>
+      <th style="font-weight: bold; text-align: right;">Electrolyzer</th>
+      <th style="font-weight: bold; text-align: right;">H2Storage</th>
+      <th style="font-weight: bold; text-align: right;">H2GT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right;">NO</td>
+      <td style="text-align: right;">27.6499</td>
+      <td style="text-align: right;">7.4679</td>
+      <td style="text-align: right;">0.7113</td>
+      <td style="text-align: right;">0.7598</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">SE</td>
+      <td style="text-align: right;">15.6172</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0355</td>
+      <td style="text-align: right;">6.7994</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">FI</td>
+      <td style="text-align: right;">3.2366</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.4181</td>
+      <td style="text-align: right;">2.2327</td>
+      <td style="text-align: right;">11.0913</td>
+      <td style="text-align: right;">5.5607</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.3464</td>
+      <td style="text-align: right;">0.1635</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0001</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">DK</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.9664</td>
+      <td style="text-align: right;">14.4064</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">IE</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.215</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.592</td>
+      <td style="text-align: right;">0.592</td>
+      <td style="text-align: right;">1.4657</td>
+      <td style="text-align: right;">8.7333</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.0437</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.7051</td>
+      <td style="text-align: right;">0.0856</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.5169</td>
+      <td style="text-align: right;">27.8111</td>
+      <td style="text-align: right;">0.6735</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">UK</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.2195</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.744</td>
+      <td style="text-align: right;">2.684</td>
+      <td style="text-align: right;">19.8291</td>
+      <td style="text-align: right;">67.7045</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">34.0032</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">17.8628</td>
+      <td style="text-align: right;">2.1691</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.1337</td>
+      <td style="text-align: right;">111.6724</td>
+      <td style="text-align: right;">2.9116</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">NL</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.037</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.5717</td>
+      <td style="text-align: right;">11.8</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.3674</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">12.474</td>
+      <td style="text-align: right;">1.5147</td>
+      <td style="text-align: right;">4.5243</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">BE</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.1482</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.305</td>
+      <td style="text-align: right;">1.2268</td>
+      <td style="text-align: right;">4.9451</td>
+      <td style="text-align: right;">9.64</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">16.2118</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">25.0687</td>
+      <td style="text-align: right;">3.0441</td>
+      <td style="text-align: right;">3.6736</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">LU</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.042</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.31</td>
+      <td style="text-align: right;">1.026</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.03</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.3695</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">DE</td>
+      <td style="text-align: right;">0.819</td>
+      <td style="text-align: right;">3.9339</td>
+      <td style="text-align: right;">2.1441</td>
+      <td style="text-align: right;">1.861</td>
+      <td style="text-align: right;">7.0098</td>
+      <td style="text-align: right;">7.1666</td>
+      <td style="text-align: right;">24.0331</td>
+      <td style="text-align: right;">101.0484</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">78.4553</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.9542</td>
+      <td style="text-align: right;">0.2373</td>
+      <td style="text-align: right;">11.1794</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">PL</td>
+      <td style="text-align: right;">0.4275</td>
+      <td style="text-align: right;">0.3673</td>
+      <td style="text-align: right;">0.2163</td>
+      <td style="text-align: right;">0.172</td>
+      <td style="text-align: right;">1.3334</td>
+      <td style="text-align: right;">1.486</td>
+      <td style="text-align: right;">9.8944</td>
+      <td style="text-align: right;">38.3924</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">24.5304</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">18.3687</td>
+      <td style="text-align: right;">2.2305</td>
+      <td style="text-align: right;">5.9198</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">LV</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.592</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.9778</td>
+      <td style="text-align: right;">1.5633</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.5778</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">EE</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.7096</td>
+      <td style="text-align: right;">2.9849</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.5437</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0004</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0209</td>
+      <td style="text-align: right;">0.8796</td>
+      <td style="text-align: right;">0.0314</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">LT</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.1262</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.938</td>
+      <td style="text-align: right;">0.9</td>
+      <td style="text-align: right;">0.332</td>
+      <td style="text-align: right;">2.691</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.0502</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">CZ</td>
+      <td style="text-align: right;">0.5175</td>
+      <td style="text-align: right;">0.4316</td>
+      <td style="text-align: right;">0.6536</td>
+      <td style="text-align: right;">0.599</td>
+      <td style="text-align: right;">0.6881</td>
+      <td style="text-align: right;">0.664</td>
+      <td style="text-align: right;">1.2306</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.8336</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.8872</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">AT</td>
+      <td style="text-align: right;">2.7871</td>
+      <td style="text-align: right;">6.3779</td>
+      <td style="text-align: right;">5.6075</td>
+      <td style="text-align: right;">5.5329</td>
+      <td style="text-align: right;">0.45</td>
+      <td style="text-align: right;">0.45</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">29.5455</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.9267</td>
+      <td style="text-align: right;">0.5982</td>
+      <td style="text-align: right;">0.5393</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">SK</td>
+      <td style="text-align: right;">0.0213</td>
+      <td style="text-align: right;">1.6282</td>
+      <td style="text-align: right;">0.2762</td>
+      <td style="text-align: right;">0.1783</td>
+      <td style="text-align: right;">0.76</td>
+      <td style="text-align: right;">0.69</td>
+      <td style="text-align: right;">0.7821</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">7.3494</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.2266</td>
+      <td style="text-align: right;">0.1489</td>
+      <td style="text-align: right;">1.5125</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">HU</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0642</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.1356</td>
+      <td style="text-align: right;">13.8685</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.377</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.2276</td>
+      <td style="text-align: right;">0.2705</td>
+      <td style="text-align: right;">0.7293</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">FR</td>
+      <td style="text-align: right;">10.029</td>
+      <td style="text-align: right;">13.614</td>
+      <td style="text-align: right;">1.85</td>
+      <td style="text-align: right;">1.85</td>
+      <td style="text-align: right;">1.95</td>
+      <td style="text-align: right;">1.95</td>
+      <td style="text-align: right;">17.2396</td>
+      <td style="text-align: right;">152.4331</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">79.0097</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">39.2704</td>
+      <td style="text-align: right;">4.7686</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">CH</td>
+      <td style="text-align: right;">8.53</td>
+      <td style="text-align: right;">4.215</td>
+      <td style="text-align: right;">2.46</td>
+      <td style="text-align: right;">1.89</td>
+      <td style="text-align: right;">1.9</td>
+      <td style="text-align: right;">1.9</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">25.717</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">IT</td>
+      <td style="text-align: right;">8.797</td>
+      <td style="text-align: right;">7.0502</td>
+      <td style="text-align: right;">3.6179</td>
+      <td style="text-align: right;">2.142</td>
+      <td style="text-align: right;">4.1702</td>
+      <td style="text-align: right;">4.174</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">5.6844</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">84.7618</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">61.6058</td>
+      <td style="text-align: right;">10.3539</td>
+      <td style="text-align: right;">14.2069</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">SI</td>
+      <td style="text-align: right;">0.0214</td>
+      <td style="text-align: right;">1.1807</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.18</td>
+      <td style="text-align: right;">0.185</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.3838</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">HR</td>
+      <td style="text-align: right;">1.9481</td>
+      <td style="text-align: right;">0.3841</td>
+      <td style="text-align: right;">0.2814</td>
+      <td style="text-align: right;">0.2469</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">7.6186</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.226</td>
+      <td style="text-align: right;">0.5132</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">RO</td>
+      <td style="text-align: right;">2.5619</td>
+      <td style="text-align: right;">3.3665</td>
+      <td style="text-align: right;">0.8099</td>
+      <td style="text-align: right;">0.0915</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.7703</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.5411</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.2506</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">BG</td>
+      <td style="text-align: right;">1.2813</td>
+      <td style="text-align: right;">0.5355</td>
+      <td style="text-align: right;">0.535</td>
+      <td style="text-align: right;">0.148</td>
+      <td style="text-align: right;">0.864</td>
+      <td style="text-align: right;">0.784</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.9225</td>
+      <td style="text-align: right;">6.3147</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.5253</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">GR</td>
+      <td style="text-align: right;">2.7437</td>
+      <td style="text-align: right;">0.383</td>
+      <td style="text-align: right;">0.699</td>
+      <td style="text-align: right;">0.735</td>
+      <td style="text-align: right;">0.68</td>
+      <td style="text-align: right;">0.71</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.02</td>
+      <td style="text-align: right;">16.5235</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">15.7804</td>
+      <td style="text-align: right;">2.6522</td>
+      <td style="text-align: right;">1.4166</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">ES</td>
+      <td style="text-align: right;">11.4142</td>
+      <td style="text-align: right;">3.4247</td>
+      <td style="text-align: right;">4.2233</td>
+      <td style="text-align: right;">3.964</td>
+      <td style="text-align: right;">5.3045</td>
+      <td style="text-align: right;">5.2046</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">34.589</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">92.2305</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">64.7676</td>
+      <td style="text-align: right;">10.8853</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.1033</td>
+      <td style="text-align: right;">42.7229</td>
+      <td style="text-align: right;">1.831</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">PT</td>
+      <td style="text-align: right;">3.7655</td>
+      <td style="text-align: right;">0.771</td>
+      <td style="text-align: right;">3.8394</td>
+      <td style="text-align: right;">3.5864</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">8.5597</td>
+      <td style="text-align: right;">1.45</td>
+      <td style="text-align: right;">13.1894</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">7.186</td>
+      <td style="text-align: right;">1.2077</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0001</td>
+      <td style="text-align: right;">0.0007</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Total</td>
+      <td style="text-align: right;">102.1682</td>
+      <td style="text-align: right;">59.5756</td>
+      <td style="text-align: right;">27.9248</td>
+      <td style="text-align: right;">23.7568</td>
+      <td style="text-align: right;">32.1789</td>
+      <td style="text-align: right;">31.7929</td>
+      <td style="text-align: right;">95.5664</td>
+      <td style="text-align: right;">489.9012</td>
+      <td style="text-align: right;">18.4838</td>
+      <td style="text-align: right;">556.386</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">278.9977</td>
+      <td style="text-align: right;">40.8433</td>
+      <td style="text-align: right;">57.1181</td>
+      <td style="text-align: right;">8.775</td>
+      <td style="text-align: right;">183.0868</td>
+      <td style="text-align: right;">5.4475</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<h3>Transmission Capacity (GW): </h3>
+<table>
+  <thead>
+    <tr>
+      <th style="font-weight: bold; text-align: right;">Region</th>
+      <th style="font-weight: bold; text-align: right;">NO</th>
+      <th style="font-weight: bold; text-align: right;">SE</th>
+      <th style="font-weight: bold; text-align: right;">FI</th>
+      <th style="font-weight: bold; text-align: right;">DK</th>
+      <th style="font-weight: bold; text-align: right;">IE</th>
+      <th style="font-weight: bold; text-align: right;">UK</th>
+      <th style="font-weight: bold; text-align: right;">NL</th>
+      <th style="font-weight: bold; text-align: right;">BE</th>
+      <th style="font-weight: bold; text-align: right;">LU</th>
+      <th style="font-weight: bold; text-align: right;">DE</th>
+      <th style="font-weight: bold; text-align: right;">PL</th>
+      <th style="font-weight: bold; text-align: right;">LV</th>
+      <th style="font-weight: bold; text-align: right;">EE</th>
+      <th style="font-weight: bold; text-align: right;">LT</th>
+      <th style="font-weight: bold; text-align: right;">CZ</th>
+      <th style="font-weight: bold; text-align: right;">AT</th>
+      <th style="font-weight: bold; text-align: right;">SK</th>
+      <th style="font-weight: bold; text-align: right;">HU</th>
+      <th style="font-weight: bold; text-align: right;">FR</th>
+      <th style="font-weight: bold; text-align: right;">CH</th>
+      <th style="font-weight: bold; text-align: right;">IT</th>
+      <th style="font-weight: bold; text-align: right;">SI</th>
+      <th style="font-weight: bold; text-align: right;">HR</th>
+      <th style="font-weight: bold; text-align: right;">RO</th>
+      <th style="font-weight: bold; text-align: right;">BG</th>
+      <th style="font-weight: bold; text-align: right;">GR</th>
+      <th style="font-weight: bold; text-align: right;">ES</th>
+      <th style="font-weight: bold; text-align: right;">PT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right;">NO</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.695</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.4</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">SE</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">FI</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.4</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">DK</td>
+      <td style="text-align: right;">1.64</td>
+      <td style="text-align: right;">2.45</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.4</td>
+      <td style="text-align: right;">0.7</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">IE</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.75</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">UK</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">NL</td>
+      <td style="text-align: right;">0.7</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">BE</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.0</td>
+      <td style="text-align: right;">3.4</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.68</td>
+      <td style="text-align: right;">1.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.3</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">LU</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">DE</td>
+      <td style="text-align: right;">1.4</td>
+      <td style="text-align: right;">0.615</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.7</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">5.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.28</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.3</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">PL</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.6</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.98</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">LV</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">EE</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.016</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.1</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">LT</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.7</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.5</td>
+      <td style="text-align: right;">0.95</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">CZ</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.1</td>
+      <td style="text-align: right;">1.4</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.8</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">AT</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">5.4</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.9</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.8</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.2</td>
+      <td style="text-align: right;">0.8</td>
+      <td style="text-align: right;">0.95</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">SK</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">HU</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">2.6</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.2</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.1</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">FR</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.38</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.1</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">CH</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.2</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.7</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.75</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">IT</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.66</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">SI</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">HR</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.7</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.9336</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">RO</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">BG</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.5</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">1.7</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">GR</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.5</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">ES</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">5.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">4.2</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">PT</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<h3>Generation (TWh): </h3>
+<table>
+  <thead>
+    <tr>
+      <th style="font-weight: bold; text-align: right;">Row</th>
+      <th style="font-weight: bold; text-align: right;">HydroRes</th>
+      <th style="font-weight: bold; text-align: right;">HydroRoR</th>
+      <th style="font-weight: bold; text-align: right;">PSHopenTurb</th>
+      <th style="font-weight: bold; text-align: right;">PSHopenPump</th>
+      <th style="font-weight: bold; text-align: right;">PSHclosedTurb</th>
+      <th style="font-weight: bold; text-align: right;">PSHclosedPump</th>
+      <th style="font-weight: bold; text-align: right;">Gas</th>
+      <th style="font-weight: bold; text-align: right;">Wind</th>
+      <th style="font-weight: bold; text-align: right;">OffWind</th>
+      <th style="font-weight: bold; text-align: right;">PV</th>
+      <th style="font-weight: bold; text-align: right;">RooftopPV</th>
+      <th style="font-weight: bold; text-align: right;">Battery</th>
+      <th style="font-weight: bold; text-align: right;">Inverter</th>
+      <th style="font-weight: bold; text-align: right;">Nuclear</th>
+      <th style="font-weight: bold; text-align: right;">Electrolyzer</th>
+      <th style="font-weight: bold; text-align: right;">H2Storage</th>
+      <th style="font-weight: bold; text-align: right;">H2GT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right;">Scenario 1</td>
+      <td style="text-align: right;">315.5948</td>
+      <td style="text-align: right;">202.3747</td>
+      <td style="text-align: right;">75.2971</td>
+      <td style="text-align: right;">72.9008</td>
+      <td style="text-align: right;">60.8351</td>
+      <td style="text-align: right;">80.4561</td>
+      <td style="text-align: right;">61.2695</td>
+      <td style="text-align: right;">1148.9121</td>
+      <td style="text-align: right;">62.9309</td>
+      <td style="text-align: right;">879.3289</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">81.4773</td>
+      <td style="text-align: right;">58.741</td>
+      <td style="text-align: right;">318.7573</td>
+      <td style="text-align: right;">28.5454</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">11.9371</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Scenario 2</td>
+      <td style="text-align: right;">315.5948</td>
+      <td style="text-align: right;">202.3747</td>
+      <td style="text-align: right;">74.1384</td>
+      <td style="text-align: right;">71.3667</td>
+      <td style="text-align: right;">60.3175</td>
+      <td style="text-align: right;">79.7849</td>
+      <td style="text-align: right;">55.4575</td>
+      <td style="text-align: right;">1099.7067</td>
+      <td style="text-align: right;">60.3781</td>
+      <td style="text-align: right;">916.8453</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">84.4516</td>
+      <td style="text-align: right;">60.8053</td>
+      <td style="text-align: right;">348.0059</td>
+      <td style="text-align: right;">29.2911</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">12.289</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Average</td>
+      <td style="text-align: right;">315.5948</td>
+      <td style="text-align: right;">202.3747</td>
+      <td style="text-align: right;">74.7177</td>
+      <td style="text-align: right;">72.1337</td>
+      <td style="text-align: right;">60.5763</td>
+      <td style="text-align: right;">80.1205</td>
+      <td style="text-align: right;">58.3635</td>
+      <td style="text-align: right;">1124.3094</td>
+      <td style="text-align: right;">61.6545</td>
+      <td style="text-align: right;">898.0871</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">82.9644</td>
+      <td style="text-align: right;">59.7732</td>
+      <td style="text-align: right;">333.3816</td>
+      <td style="text-align: right;">28.9183</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">12.113</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<h3>Utilization (%): </h3>
+<table>
+  <thead>
+    <tr>
+      <th style="font-weight: bold; text-align: right;">Row</th>
+      <th style="font-weight: bold; text-align: right;">HydroRes</th>
+      <th style="font-weight: bold; text-align: right;">HydroRoR</th>
+      <th style="font-weight: bold; text-align: right;">PSHopenTurb</th>
+      <th style="font-weight: bold; text-align: right;">PSHopenPump</th>
+      <th style="font-weight: bold; text-align: right;">PSHclosedTurb</th>
+      <th style="font-weight: bold; text-align: right;">PSHclosedPump</th>
+      <th style="font-weight: bold; text-align: right;">Gas</th>
+      <th style="font-weight: bold; text-align: right;">Wind</th>
+      <th style="font-weight: bold; text-align: right;">OffWind</th>
+      <th style="font-weight: bold; text-align: right;">PV</th>
+      <th style="font-weight: bold; text-align: right;">RooftopPV</th>
+      <th style="font-weight: bold; text-align: right;">Battery</th>
+      <th style="font-weight: bold; text-align: right;">Inverter</th>
+      <th style="font-weight: bold; text-align: right;">Nuclear</th>
+      <th style="font-weight: bold; text-align: right;">Electrolyzer</th>
+      <th style="font-weight: bold; text-align: right;">H2Storage</th>
+      <th style="font-weight: bold; text-align: right;">H2GT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right;">Scenario 1</td>
+      <td style="text-align: right;">35.2743</td>
+      <td style="text-align: right;">38.7911</td>
+      <td style="text-align: right;">30.7916</td>
+      <td style="text-align: right;">35.042</td>
+      <td style="text-align: right;">21.5887</td>
+      <td style="text-align: right;">28.8983</td>
+      <td style="text-align: right;">7.3212</td>
+      <td style="text-align: right;">26.7808</td>
+      <td style="text-align: right;">38.8792</td>
+      <td style="text-align: right;">18.0476</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.3349</td>
+      <td style="text-align: right;">16.4235</td>
+      <td style="text-align: right;">63.7281</td>
+      <td style="text-align: right;">37.1479</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">25.0233</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Scenario 2</td>
+      <td style="text-align: right;">35.2743</td>
+      <td style="text-align: right;">38.7911</td>
+      <td style="text-align: right;">30.3178</td>
+      <td style="text-align: right;">34.3046</td>
+      <td style="text-align: right;">21.4051</td>
+      <td style="text-align: right;">28.6573</td>
+      <td style="text-align: right;">6.6267</td>
+      <td style="text-align: right;">25.6338</td>
+      <td style="text-align: right;">37.3021</td>
+      <td style="text-align: right;">18.8176</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.4566</td>
+      <td style="text-align: right;">17.0006</td>
+      <td style="text-align: right;">69.5757</td>
+      <td style="text-align: right;">38.1184</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">25.7611</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Average</td>
+      <td style="text-align: right;">35.2743</td>
+      <td style="text-align: right;">38.7911</td>
+      <td style="text-align: right;">30.5547</td>
+      <td style="text-align: right;">34.6733</td>
+      <td style="text-align: right;">21.4969</td>
+      <td style="text-align: right;">28.7778</td>
+      <td style="text-align: right;">6.974</td>
+      <td style="text-align: right;">26.2073</td>
+      <td style="text-align: right;">38.0907</td>
+      <td style="text-align: right;">18.4326</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">3.3958</td>
+      <td style="text-align: right;">16.7121</td>
+      <td style="text-align: right;">66.6519</td>
+      <td style="text-align: right;">37.6332</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">25.3922</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<h3>Scenario Summary: </h3>
+<table>
+  <thead>
+    <tr>
+      <th style="font-weight: bold; text-align: right;">Row</th>
+      <th style="font-weight: bold; text-align: right;">Scenario 1</th>
+      <th style="font-weight: bold; text-align: right;">Scenario 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right;">Probability (%)</td>
+      <td style="text-align: right;">50.0</td>
+      <td style="text-align: right;">50.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Fixed cost (M€)</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Operational cost (M€)</td>
+      <td style="text-align: right;">9417.1602</td>
+      <td style="text-align: right;">9326.2633</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">CO2 emissions (Mt)</td>
+      <td style="text-align: right;">28.7923</td>
+      <td style="text-align: right;">26.0611</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Load shedding cost (M€)</td>
+      <td style="text-align: right;">291.1091</td>
+      <td style="text-align: right;">108.1302</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Satisfied load (TWh)</td>
+      <td style="text-align: right;">2879.2295</td>
+      <td style="text-align: right;">2879.4125</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Shedded Load (TWh)</td>
+      <td style="text-align: right;">0.2911</td>
+      <td style="text-align: right;">0.1081</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Unit production cost (€/MWh)</td>
+      <td style="text-align: right;">38.6747</td>
+      <td style="text-align: right;">38.5771</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+<h3>Simulation Results:</h3>
+<table>
+  <thead>
+    <tr>
+      <th style="font-weight: bold; text-align: right;">Row</th>
+      <th style="font-weight: bold; text-align: right;">Average</th>
+      <th style="font-weight: bold; text-align: right;">Year 1979</th>
+      <th style="font-weight: bold; text-align: right;">Year 1980</th>
+      <th style="font-weight: bold; text-align: right;">Year 1981</th>
+      <th style="font-weight: bold; text-align: right;">Year 1982</th>
+      <th style="font-weight: bold; text-align: right;">Year 1983</th>
+      <th style="font-weight: bold; text-align: right;">Year 1984</th>
+      <th style="font-weight: bold; text-align: right;">Year 1985</th>
+      <th style="font-weight: bold; text-align: right;">Year 1986</th>
+      <th style="font-weight: bold; text-align: right;">Year 1987</th>
+      <th style="font-weight: bold; text-align: right;">Year 1988</th>
+      <th style="font-weight: bold; text-align: right;">Year 1989</th>
+      <th style="font-weight: bold; text-align: right;">Year 1990</th>
+      <th style="font-weight: bold; text-align: right;">Year 1991</th>
+      <th style="font-weight: bold; text-align: right;">Year 1992</th>
+      <th style="font-weight: bold; text-align: right;">Year 1993</th>
+      <th style="font-weight: bold; text-align: right;">Year 1994</th>
+      <th style="font-weight: bold; text-align: right;">Year 1995</th>
+      <th style="font-weight: bold; text-align: right;">Year 1996</th>
+      <th style="font-weight: bold; text-align: right;">Year 1997</th>
+      <th style="font-weight: bold; text-align: right;">Year 1998</th>
+      <th style="font-weight: bold; text-align: right;">Year 1999</th>
+      <th style="font-weight: bold; text-align: right;">Year 2000</th>
+      <th style="font-weight: bold; text-align: right;">Year 2001</th>
+      <th style="font-weight: bold; text-align: right;">Year 2002</th>
+      <th style="font-weight: bold; text-align: right;">Year 2003</th>
+      <th style="font-weight: bold; text-align: right;">Year 2004</th>
+      <th style="font-weight: bold; text-align: right;">Year 2005</th>
+      <th style="font-weight: bold; text-align: right;">Year 2006</th>
+      <th style="font-weight: bold; text-align: right;">Year 2007</th>
+      <th style="font-weight: bold; text-align: right;">Year 2008</th>
+      <th style="font-weight: bold; text-align: right;">Year 2009</th>
+      <th style="font-weight: bold; text-align: right;">Year 2010</th>
+      <th style="font-weight: bold; text-align: right;">Year 2011</th>
+      <th style="font-weight: bold; text-align: right;">Year 2012</th>
+      <th style="font-weight: bold; text-align: right;">Year 2013</th>
+      <th style="font-weight: bold; text-align: right;">Year 2014</th>
+      <th style="font-weight: bold; text-align: right;">Year 2015</th>
+      <th style="font-weight: bold; text-align: right;">Year 2016</th>
+      <th style="font-weight: bold; text-align: right;">Year 2017</th>
+      <th style="font-weight: bold; text-align: right;">Year 2018</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right;">Objective value</td>
+      <td style="text-align: right;">110039.4209</td>
+      <td style="text-align: right;">111376.8667</td>
+      <td style="text-align: right;">108401.9502</td>
+      <td style="text-align: right;">109384.6799</td>
+      <td style="text-align: right;">109147.0079</td>
+      <td style="text-align: right;">108920.0928</td>
+      <td style="text-align: right;">111186.0122</td>
+      <td style="text-align: right;">109880.2728</td>
+      <td style="text-align: right;">110086.8027</td>
+      <td style="text-align: right;">115165.6928</td>
+      <td style="text-align: right;">108926.2497</td>
+      <td style="text-align: right;">108625.8454</td>
+      <td style="text-align: right;">110629.2389</td>
+      <td style="text-align: right;">110260.2061</td>
+      <td style="text-align: right;">109083.2681</td>
+      <td style="text-align: right;">108611.7322</td>
+      <td style="text-align: right;">108276.7834</td>
+      <td style="text-align: right;">111364.0936</td>
+      <td style="text-align: right;">111353.3046</td>
+      <td style="text-align: right;">109429.2905</td>
+      <td style="text-align: right;">108661.4354</td>
+      <td style="text-align: right;">108462.1003</td>
+      <td style="text-align: right;">111793.6672</td>
+      <td style="text-align: right;">108847.0452</td>
+      <td style="text-align: right;">110469.541</td>
+      <td style="text-align: right;">109885.0779</td>
+      <td style="text-align: right;">113935.5514</td>
+      <td style="text-align: right;">112543.3086</td>
+      <td style="text-align: right;">108296.7215</td>
+      <td style="text-align: right;">108850.2378</td>
+      <td style="text-align: right;">110329.1366</td>
+      <td style="text-align: right;">110526.9323</td>
+      <td style="text-align: right;">111026.001</td>
+      <td style="text-align: right;">109076.6952</td>
+      <td style="text-align: right;">110479.5239</td>
+      <td style="text-align: right;">108535.0934</td>
+      <td style="text-align: right;">110718.9735</td>
+      <td style="text-align: right;">108897.2364</td>
+      <td style="text-align: right;">111079.4282</td>
+      <td style="text-align: right;">110084.137</td>
+      <td style="text-align: right;">108969.6025</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Total costs (M€)</td>
+      <td style="text-align: right;">110039.4209</td>
+      <td style="text-align: right;">111376.8667</td>
+      <td style="text-align: right;">108401.9502</td>
+      <td style="text-align: right;">109384.6799</td>
+      <td style="text-align: right;">109147.0079</td>
+      <td style="text-align: right;">108920.0928</td>
+      <td style="text-align: right;">111186.0122</td>
+      <td style="text-align: right;">109880.2728</td>
+      <td style="text-align: right;">110086.8027</td>
+      <td style="text-align: right;">115165.6928</td>
+      <td style="text-align: right;">108926.2497</td>
+      <td style="text-align: right;">108625.8454</td>
+      <td style="text-align: right;">110629.2389</td>
+      <td style="text-align: right;">110260.2061</td>
+      <td style="text-align: right;">109083.2681</td>
+      <td style="text-align: right;">108611.7322</td>
+      <td style="text-align: right;">108276.7834</td>
+      <td style="text-align: right;">111364.0936</td>
+      <td style="text-align: right;">111353.3046</td>
+      <td style="text-align: right;">109429.2905</td>
+      <td style="text-align: right;">108661.4354</td>
+      <td style="text-align: right;">108462.1003</td>
+      <td style="text-align: right;">111793.6672</td>
+      <td style="text-align: right;">108847.0452</td>
+      <td style="text-align: right;">110469.541</td>
+      <td style="text-align: right;">109885.0779</td>
+      <td style="text-align: right;">113935.5514</td>
+      <td style="text-align: right;">112543.3086</td>
+      <td style="text-align: right;">108296.7215</td>
+      <td style="text-align: right;">108850.2378</td>
+      <td style="text-align: right;">110329.1366</td>
+      <td style="text-align: right;">110526.9323</td>
+      <td style="text-align: right;">111026.001</td>
+      <td style="text-align: right;">109076.6952</td>
+      <td style="text-align: right;">110479.5239</td>
+      <td style="text-align: right;">108535.0934</td>
+      <td style="text-align: right;">110718.9735</td>
+      <td style="text-align: right;">108897.2364</td>
+      <td style="text-align: right;">111079.4282</td>
+      <td style="text-align: right;">110084.137</td>
+      <td style="text-align: right;">108969.6025</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Total costs without load loss (M€)</td>
+      <td style="text-align: right;">109604.3874</td>
+      <td style="text-align: right;">110604.9357</td>
+      <td style="text-align: right;">108401.9502</td>
+      <td style="text-align: right;">109384.6799</td>
+      <td style="text-align: right;">108947.7467</td>
+      <td style="text-align: right;">108920.0928</td>
+      <td style="text-align: right;">111120.1953</td>
+      <td style="text-align: right;">109676.4986</td>
+      <td style="text-align: right;">109936.6237</td>
+      <td style="text-align: right;">109635.7976</td>
+      <td style="text-align: right;">108926.2497</td>
+      <td style="text-align: right;">108625.8454</td>
+      <td style="text-align: right;">110479.4253</td>
+      <td style="text-align: right;">110260.2061</td>
+      <td style="text-align: right;">109083.2681</td>
+      <td style="text-align: right;">108611.7322</td>
+      <td style="text-align: right;">108276.7834</td>
+      <td style="text-align: right;">111363.481</td>
+      <td style="text-align: right;">111353.3045</td>
+      <td style="text-align: right;">109429.2905</td>
+      <td style="text-align: right;">108661.4354</td>
+      <td style="text-align: right;">108323.7434</td>
+      <td style="text-align: right;">109561.1531</td>
+      <td style="text-align: right;">108847.0452</td>
+      <td style="text-align: right;">110346.956</td>
+      <td style="text-align: right;">109775.6365</td>
+      <td style="text-align: right;">109617.8946</td>
+      <td style="text-align: right;">110704.4047</td>
+      <td style="text-align: right;">108296.7215</td>
+      <td style="text-align: right;">108850.2378</td>
+      <td style="text-align: right;">110316.0917</td>
+      <td style="text-align: right;">110526.9323</td>
+      <td style="text-align: right;">110702.1834</td>
+      <td style="text-align: right;">109066.9772</td>
+      <td style="text-align: right;">110479.5239</td>
+      <td style="text-align: right;">108535.0934</td>
+      <td style="text-align: right;">110418.8892</td>
+      <td style="text-align: right;">108897.2364</td>
+      <td style="text-align: right;">111079.4282</td>
+      <td style="text-align: right;">109160.2045</td>
+      <td style="text-align: right;">108969.6025</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Investment cost (M€)</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+      <td style="text-align: right;">70657.5558</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Fixed cost (M€)</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+      <td style="text-align: right;">30987.4792</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Operational cost (M€)</td>
+      <td style="text-align: right;">7899.7656</td>
+      <td style="text-align: right;">8863.0173</td>
+      <td style="text-align: right;">6736.1931</td>
+      <td style="text-align: right;">7663.7345</td>
+      <td style="text-align: right;">7240.1145</td>
+      <td style="text-align: right;">7262.9106</td>
+      <td style="text-align: right;">9285.6752</td>
+      <td style="text-align: right;">8006.5174</td>
+      <td style="text-align: right;">8226.7852</td>
+      <td style="text-align: right;">7860.9794</td>
+      <td style="text-align: right;">7256.6133</td>
+      <td style="text-align: right;">6980.8104</td>
+      <td style="text-align: right;">8789.173</td>
+      <td style="text-align: right;">8615.1711</td>
+      <td style="text-align: right;">7431.5726</td>
+      <td style="text-align: right;">6966.6972</td>
+      <td style="text-align: right;">6612.8934</td>
+      <td style="text-align: right;">9712.9268</td>
+      <td style="text-align: right;">9417.1603</td>
+      <td style="text-align: right;">7779.0415</td>
+      <td style="text-align: right;">7006.788</td>
+      <td style="text-align: right;">6670.9049</td>
+      <td style="text-align: right;">7707.9495</td>
+      <td style="text-align: right;">7201.378</td>
+      <td style="text-align: right;">8555.321</td>
+      <td style="text-align: right;">8120.169</td>
+      <td style="text-align: right;">7743.152</td>
+      <td style="text-align: right;">8943.0451</td>
+      <td style="text-align: right;">6566.6909</td>
+      <td style="text-align: right;">7180.2264</td>
+      <td style="text-align: right;">8618.5779</td>
+      <td style="text-align: right;">8839.1195</td>
+      <td style="text-align: right;">9043.7621</td>
+      <td style="text-align: right;">7392.9832</td>
+      <td style="text-align: right;">8832.5111</td>
+      <td style="text-align: right;">6882.3976</td>
+      <td style="text-align: right;">8653.6579</td>
+      <td style="text-align: right;">7181.8241</td>
+      <td style="text-align: right;">9326.263</td>
+      <td style="text-align: right;">7500.9017</td>
+      <td style="text-align: right;">7315.014</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">CO2 emissions (Mt)</td>
+      <td style="text-align: right;">15.3928</td>
+      <td style="text-align: right;">20.8214</td>
+      <td style="text-align: right;">8.9142</td>
+      <td style="text-align: right;">11.4183</td>
+      <td style="text-align: right;">9.8004</td>
+      <td style="text-align: right;">9.9837</td>
+      <td style="text-align: right;">24.9189</td>
+      <td style="text-align: right;">16.9006</td>
+      <td style="text-align: right;">16.5635</td>
+      <td style="text-align: right;">14.9133</td>
+      <td style="text-align: right;">10.2649</td>
+      <td style="text-align: right;">9.0515</td>
+      <td style="text-align: right;">23.2784</td>
+      <td style="text-align: right;">22.0395</td>
+      <td style="text-align: right;">11.633</td>
+      <td style="text-align: right;">10.7174</td>
+      <td style="text-align: right;">7.8476</td>
+      <td style="text-align: right;">27.4653</td>
+      <td style="text-align: right;">28.7923</td>
+      <td style="text-align: right;">13.4766</td>
+      <td style="text-align: right;">10.1919</td>
+      <td style="text-align: right;">7.8342</td>
+      <td style="text-align: right;">13.8037</td>
+      <td style="text-align: right;">11.7091</td>
+      <td style="text-align: right;">17.9171</td>
+      <td style="text-align: right;">14.792</td>
+      <td style="text-align: right;">14.44</td>
+      <td style="text-align: right;">21.195</td>
+      <td style="text-align: right;">7.8564</td>
+      <td style="text-align: right;">10.3721</td>
+      <td style="text-align: right;">19.3983</td>
+      <td style="text-align: right;">22.0339</td>
+      <td style="text-align: right;">23.2452</td>
+      <td style="text-align: right;">12.629</td>
+      <td style="text-align: right;">22.7985</td>
+      <td style="text-align: right;">7.1683</td>
+      <td style="text-align: right;">19.865</td>
+      <td style="text-align: right;">9.9095</td>
+      <td style="text-align: right;">26.0611</td>
+      <td style="text-align: right;">12.739</td>
+      <td style="text-align: right;">10.9508</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Load shedding cost (M€)</td>
+      <td style="text-align: right;">59.5869</td>
+      <td style="text-align: right;">96.8834</td>
+      <td style="text-align: right;">20.7221</td>
+      <td style="text-align: right;">75.9103</td>
+      <td style="text-align: right;">62.5972</td>
+      <td style="text-align: right;">12.1473</td>
+      <td style="text-align: right;">189.4851</td>
+      <td style="text-align: right;">24.9463</td>
+      <td style="text-align: right;">64.8035</td>
+      <td style="text-align: right;">129.7832</td>
+      <td style="text-align: right;">24.6014</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">45.2173</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">6.6605</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">18.855</td>
+      <td style="text-align: right;">5.5192</td>
+      <td style="text-align: right;">291.1092</td>
+      <td style="text-align: right;">5.2141</td>
+      <td style="text-align: right;">9.6124</td>
+      <td style="text-align: right;">7.8035</td>
+      <td style="text-align: right;">208.1686</td>
+      <td style="text-align: right;">0.6322</td>
+      <td style="text-align: right;">146.6</td>
+      <td style="text-align: right;">10.4325</td>
+      <td style="text-align: right;">229.7077</td>
+      <td style="text-align: right;">116.3245</td>
+      <td style="text-align: right;">84.9956</td>
+      <td style="text-align: right;">24.9764</td>
+      <td style="text-align: right;">52.4788</td>
+      <td style="text-align: right;">42.7778</td>
+      <td style="text-align: right;">13.3863</td>
+      <td style="text-align: right;">28.959</td>
+      <td style="text-align: right;">1.9778</td>
+      <td style="text-align: right;">7.6609</td>
+      <td style="text-align: right;">120.1963</td>
+      <td style="text-align: right;">70.3773</td>
+      <td style="text-align: right;">108.1302</td>
+      <td style="text-align: right;">14.2678</td>
+      <td style="text-align: right;">9.5535</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Load loss cost (M€)</td>
+      <td style="text-align: right;">435.0335</td>
+      <td style="text-align: right;">771.931</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">199.2613</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">65.8169</td>
+      <td style="text-align: right;">203.7741</td>
+      <td style="text-align: right;">150.1791</td>
+      <td style="text-align: right;">5529.8952</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">149.8136</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.6126</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">138.3569</td>
+      <td style="text-align: right;">2232.5141</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">122.5849</td>
+      <td style="text-align: right;">109.4414</td>
+      <td style="text-align: right;">4317.6568</td>
+      <td style="text-align: right;">1838.904</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">13.0448</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">323.8176</td>
+      <td style="text-align: right;">9.718</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">300.0843</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">923.9325</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Satisfied load (TWh)</td>
+      <td style="text-align: right;">2879.4567</td>
+      <td style="text-align: right;">2879.416</td>
+      <td style="text-align: right;">2879.4999</td>
+      <td style="text-align: right;">2879.4447</td>
+      <td style="text-align: right;">2879.456</td>
+      <td style="text-align: right;">2879.5084</td>
+      <td style="text-align: right;">2879.3304</td>
+      <td style="text-align: right;">2879.4936</td>
+      <td style="text-align: right;">2879.4543</td>
+      <td style="text-align: right;">2879.3355</td>
+      <td style="text-align: right;">2879.496</td>
+      <td style="text-align: right;">2879.5206</td>
+      <td style="text-align: right;">2879.4739</td>
+      <td style="text-align: right;">2879.5206</td>
+      <td style="text-align: right;">2879.5139</td>
+      <td style="text-align: right;">2879.5206</td>
+      <td style="text-align: right;">2879.5017</td>
+      <td style="text-align: right;">2879.5151</td>
+      <td style="text-align: right;">2879.2295</td>
+      <td style="text-align: right;">2879.5154</td>
+      <td style="text-align: right;">2879.511</td>
+      <td style="text-align: right;">2879.5114</td>
+      <td style="text-align: right;">2879.2901</td>
+      <td style="text-align: right;">2879.52</td>
+      <td style="text-align: right;">2879.3728</td>
+      <td style="text-align: right;">2879.5091</td>
+      <td style="text-align: right;">2879.2477</td>
+      <td style="text-align: right;">2879.3859</td>
+      <td style="text-align: right;">2879.4356</td>
+      <td style="text-align: right;">2879.4956</td>
+      <td style="text-align: right;">2879.468</td>
+      <td style="text-align: right;">2879.4778</td>
+      <td style="text-align: right;">2879.504</td>
+      <td style="text-align: right;">2879.4915</td>
+      <td style="text-align: right;">2879.5186</td>
+      <td style="text-align: right;">2879.5129</td>
+      <td style="text-align: right;">2879.3974</td>
+      <td style="text-align: right;">2879.4502</td>
+      <td style="text-align: right;">2879.4125</td>
+      <td style="text-align: right;">2879.4971</td>
+      <td style="text-align: right;">2879.511</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Shedded Load (TWh)</td>
+      <td style="text-align: right;">0.0596</td>
+      <td style="text-align: right;">0.0969</td>
+      <td style="text-align: right;">0.0207</td>
+      <td style="text-align: right;">0.0759</td>
+      <td style="text-align: right;">0.0626</td>
+      <td style="text-align: right;">0.0121</td>
+      <td style="text-align: right;">0.1895</td>
+      <td style="text-align: right;">0.0249</td>
+      <td style="text-align: right;">0.0648</td>
+      <td style="text-align: right;">0.1298</td>
+      <td style="text-align: right;">0.0246</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0452</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0067</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0189</td>
+      <td style="text-align: right;">0.0055</td>
+      <td style="text-align: right;">0.2911</td>
+      <td style="text-align: right;">0.0052</td>
+      <td style="text-align: right;">0.0096</td>
+      <td style="text-align: right;">0.0078</td>
+      <td style="text-align: right;">0.2082</td>
+      <td style="text-align: right;">0.0006</td>
+      <td style="text-align: right;">0.1466</td>
+      <td style="text-align: right;">0.0104</td>
+      <td style="text-align: right;">0.2297</td>
+      <td style="text-align: right;">0.1163</td>
+      <td style="text-align: right;">0.085</td>
+      <td style="text-align: right;">0.025</td>
+      <td style="text-align: right;">0.0525</td>
+      <td style="text-align: right;">0.0428</td>
+      <td style="text-align: right;">0.0134</td>
+      <td style="text-align: right;">0.029</td>
+      <td style="text-align: right;">0.002</td>
+      <td style="text-align: right;">0.0077</td>
+      <td style="text-align: right;">0.1202</td>
+      <td style="text-align: right;">0.0704</td>
+      <td style="text-align: right;">0.1081</td>
+      <td style="text-align: right;">0.0143</td>
+      <td style="text-align: right;">0.0096</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Load loss (TWh)</td>
+      <td style="text-align: right;">0.0044</td>
+      <td style="text-align: right;">0.0077</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.002</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0007</td>
+      <td style="text-align: right;">0.002</td>
+      <td style="text-align: right;">0.0015</td>
+      <td style="text-align: right;">0.0553</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0015</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0014</td>
+      <td style="text-align: right;">0.0223</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0012</td>
+      <td style="text-align: right;">0.0011</td>
+      <td style="text-align: right;">0.0432</td>
+      <td style="text-align: right;">0.0184</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0001</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0032</td>
+      <td style="text-align: right;">0.0001</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.003</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0</td>
+      <td style="text-align: right;">0.0092</td>
+      <td style="text-align: right;">0.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: right;">Unit production cost (€/MWh)</td>
+      <td style="text-align: right;">38.0643</td>
+      <td style="text-align: right;">38.4123</td>
+      <td style="text-align: right;">37.6461</td>
+      <td style="text-align: right;">37.9881</td>
+      <td style="text-align: right;">37.8362</td>
+      <td style="text-align: right;">37.8259</td>
+      <td style="text-align: right;">38.5924</td>
+      <td style="text-align: right;">38.0888</td>
+      <td style="text-align: right;">38.1797</td>
+      <td style="text-align: right;">38.0768</td>
+      <td style="text-align: right;">37.8282</td>
+      <td style="text-align: right;">37.7236</td>
+      <td style="text-align: right;">38.3679</td>
+      <td style="text-align: right;">38.2912</td>
+      <td style="text-align: right;">37.8825</td>
+      <td style="text-align: right;">37.7187</td>
+      <td style="text-align: right;">37.6026</td>
+      <td style="text-align: right;">38.6744</td>
+      <td style="text-align: right;">38.6747</td>
+      <td style="text-align: right;">38.0027</td>
+      <td style="text-align: right;">37.7361</td>
+      <td style="text-align: right;">37.6188</td>
+      <td style="text-align: right;">38.0514</td>
+      <td style="text-align: right;">37.8004</td>
+      <td style="text-align: right;">38.3233</td>
+      <td style="text-align: right;">38.123</td>
+      <td style="text-align: right;">38.0717</td>
+      <td style="text-align: right;">38.4472</td>
+      <td style="text-align: right;">37.6104</td>
+      <td style="text-align: right;">37.8018</td>
+      <td style="text-align: right;">38.3113</td>
+      <td style="text-align: right;">38.3844</td>
+      <td style="text-align: right;">38.4449</td>
+      <td style="text-align: right;">37.8772</td>
+      <td style="text-align: right;">38.3674</td>
+      <td style="text-align: right;">37.6922</td>
+      <td style="text-align: right;">38.3479</td>
+      <td style="text-align: right;">37.8188</td>
+      <td style="text-align: right;">38.5771</td>
+      <td style="text-align: right;">37.9095</td>
+      <td style="text-align: right;">37.8431</td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+</body></html>
